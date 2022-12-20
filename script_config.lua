@@ -410,8 +410,8 @@ table.insert(Config.scriptsConfig, {
             bulletNotFound = "Não há balas no corpo do paciente.",
             cutsNotFound = "Não há cortes no corpo do paciente.",
             burnNotFound = "Não há queimaduras no corpo do paciente.",
-            pickUpItemFromMedicalBag = "você pegou 1"
-            pickUpItemFromMedicalBag2 = "da bolsa medica."
+            pickUpItemFromMedicalBag = "você pegou 1",
+            pickUpItemFromMedicalBag2 = "da bolsa medica.",
             pickedUpMedBag = "Você pegou uma uma bolsa medica!",
             keptStretcher = "Você guardou a maca!",
             removeBullet = "Bala removida.",
@@ -536,8 +536,8 @@ table.insert(Config.scriptsConfig, {
             bulletNotFound = "There are no bullets in the patient's body.",
             cutsNotFound = "There are no cuts on the patient's body.",
             burnNotFound = "There are no burns on the patient's body.",
-            pickUpItemFromMedicalBag = "you picked 1"
-            pickUpItemFromMedicalBag2 = "from medical bag."
+            pickUpItemFromMedicalBag = "you picked 1",
+            pickUpItemFromMedicalBag2 = "from medical bag.",
             pickedUpMedBag = "You picked up a medical bag!",
             keptStretcher = "You kept the stretcher!",
             removeBullet = "Bullet removed.",

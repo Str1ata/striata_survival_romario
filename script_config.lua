@@ -2,6 +2,8 @@ table.insert(Config.scriptsConfig, {
 
     survivalConfig = {
 
+        baseType = "creative", -- zirix, creative
+
         docs = "docs/survival/",  -- Local onde as imagens, sons, gifs, etc... estão localizados
     --{ Survival 
 

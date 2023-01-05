@@ -2,7 +2,12 @@ table.insert(Config.scriptsConfig, {
 
     survivalConfig = {
 
-        baseType = "creative", -- zirix, creative
+        baseType = "zirix", -- zirix, creative
+
+        progressBarEvent = "progress", -- Evento de progresso
+
+        identityFristNameDB = "name", -- primeiro nome do player que fica no banco de dados.
+        identityLastNameDB = "firstname", -- ultimo nome do player que fica no banco de dados.
 
         docs = "docs/survival/",  -- Local onde as imagens, sons, gifs, etc... estão localizados
     --{ Survival 
@@ -60,7 +65,7 @@ table.insert(Config.scriptsConfig, {
     --{ Diagnostic
         enableDiagnostic = true,  -- Defina como (true) para ativar o sistema de diagnóstico e (false) para desativar.
 
-        webhookReanimation = "",  -- Log webhook com informações de reanimações.
+        webhookReanimation = "https://discord.com/api/webhooks/893452509597818901/MQz3Up3PQSSd1t9fdkFku6FV6A5ZzagFck4GONtl7Pgpy4P4h6smcLtqjA3rv8qKvPUr",  -- Log webhook com informações de reanimações.
 
         patientBloodMilliliters = 5000,  -- Quantidade de sangue em mililitros no corpo.
         timeToZeroMilliliters = 600,  -- Tempo desmaiado para chegar a zero mililitros de sangue.
@@ -116,7 +121,7 @@ table.insert(Config.scriptsConfig, {
 
         enableKillLog = true,  -- Defina como (true) para ativar o sistema de log de morte e (false) para desativar.
 
-        webhookKillLog = "",  -- Log webhook com informações do log de morte.
+        webhookKillLog = "https://discord.com/api/webhooks/893683258561294337/_SOZnF8Tp1jazeS_VDGOKgAQazasj3C0TMVOStrP9qd1Rf3lfDS-JOAinAikbKxcWSgR",  -- Log webhook com informações do log de morte.
         
         enableHitMarkSound = true,  -- Defina como (true) para ativar um som que tocara ao matar um player e (false) para desativar.
         hitMarkSoundVolume = 1.0,  -- Defina o volume do som que será tocado ao matar o player.
@@ -329,9 +334,9 @@ table.insert(Config.scriptsConfig, {
             itemSutureKit = "sutura",
             itemBurnCream = "cremeparaqueimaduras",
             itemDefib = "desfibrilador",
-            itemSedative = "sedativo",
             itemStretcher = "maca",
             itemBulletMashed = "balaamassada",
+            shroud = "sacoobito",
         },
 
         diagnostic = {
@@ -419,6 +424,7 @@ table.insert(Config.scriptsConfig, {
             removeBullet = "Bala removida.",
             sewnCut = "corte costurado.",
             applyCream = "creme aplicado.",
+            shrouded = "o corpo foi ensacado.",
         },
 
         progressBar = {
@@ -455,9 +461,9 @@ table.insert(Config.scriptsConfig, {
             itemSutureKit = "suture",
             itemBurnCream = "cream for burn",
             itemDefib = "defibrillator",
-            itemSedative = "sedative",
             itemStretcher = "stretcher",
             itemBulletMashed = "bullet mashed",
+            shroud = "shroud",
         },
 
         diagnostic = {
@@ -545,6 +551,7 @@ table.insert(Config.scriptsConfig, {
             removeBullet = "Bullet removed.",
             sewnCut = "sewn cut.",
             applyCream = "applied cream.",
+            shrouded = "the body was shrouded.",
         },
 
         notifysTypes = {

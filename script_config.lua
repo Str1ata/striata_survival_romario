@@ -65,7 +65,7 @@ table.insert(Config.scriptsConfig, {
     --{ Diagnostic
         enableDiagnostic = true,  -- Defina como (true) para ativar o sistema de diagnóstico e (false) para desativar.
 
-        webhookReanimation = "https://discord.com/api/webhooks/893452509597818901/MQz3Up3PQSSd1t9fdkFku6FV6A5ZzagFck4GONtl7Pgpy4P4h6smcLtqjA3rv8qKvPUr",  -- Log webhook com informações de reanimações.
+        webhookReanimation = "",  -- Log webhook com informações de reanimações.
 
         patientBloodMilliliters = 5000,  -- Quantidade de sangue em mililitros no corpo.
         timeToZeroMilliliters = 600,  -- Tempo desmaiado para chegar a zero mililitros de sangue.
@@ -121,7 +121,7 @@ table.insert(Config.scriptsConfig, {
 
         enableKillLog = true,  -- Defina como (true) para ativar o sistema de log de morte e (false) para desativar.
 
-        webhookKillLog = "https://discord.com/api/webhooks/893683258561294337/_SOZnF8Tp1jazeS_VDGOKgAQazasj3C0TMVOStrP9qd1Rf3lfDS-JOAinAikbKxcWSgR",  -- Log webhook com informações do log de morte.
+        webhookKillLog = "",  -- Log webhook com informações do log de morte.
         
         enableHitMarkSound = true,  -- Defina como (true) para ativar um som que tocara ao matar um player e (false) para desativar.
         hitMarkSoundVolume = 1.0,  -- Defina o volume do som que será tocado ao matar o player.

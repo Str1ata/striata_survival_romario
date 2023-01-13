@@ -109,6 +109,7 @@ table.insert(Config.scriptsConfig, {
         },
 
         targetMode = true,
+        nhContext = true,
         needDefib = true,
         permissionsToPickAndUseItens = {"admin.permissao","paramedico.permissao","bombeiro.permissao"},  -- Defina as permissões que terão aos itens da bolsa medica.
 
@@ -336,7 +337,7 @@ table.insert(Config.scriptsConfig, {
             itemDefib = "desfibrilador",
             itemStretcher = "maca",
             itemBulletMashed = "balaamassada",
-            shroud = "sacoobito",
+            itemShroud = "mortalha",
         },
 
         diagnostic = {
@@ -370,6 +371,21 @@ table.insert(Config.scriptsConfig, {
             pelvis = "Pelve",
         },
 
+        nhContextOptions = {
+            getTweezers = ": Pegar Pinça",
+            getTweezersDescription = ": Pegar Pinça",
+            getSuture = ": Pegar Sutura",
+            getSutureDescription = ": Pegar Sutura",
+            getBurnCream = ": Pegar Creme para queimaduras",
+            getBurnCreamDescription = ": Pegar Creme para queimaduras",
+            getDefib = ": Pegar Desfibrilador",
+            getDefibDescription = ": Pegar Desfibrilador",
+            getFoldingSTretcher = ": Pegar Maca Dobrável",
+            getFoldingSTretcherDescription = ": Pegar Maca Dobrável",
+            getShroud = ": Pegar Mortalha",
+            getShroudDescription = ": Pegar Mortalha",
+        },
+
         targetLabelOptions = {
             openBag = ": Abrir bolsa",
             pickUpBag = ": Pegar bolsa",
@@ -379,6 +395,7 @@ table.insert(Config.scriptsConfig, {
             getBurnCream = ": Pegar Creme para queimaduras",
             getDefib = ": Pegar Desfibrilador",
             getFoldingSTretcher = ": Pegar Maca Dobrável",
+            getShroud = ": Pegar Mortalha",
             closePurse = ": Fechar bolsa",
         },
 
@@ -463,7 +480,7 @@ table.insert(Config.scriptsConfig, {
             itemDefib = "defibrillator",
             itemStretcher = "stretcher",
             itemBulletMashed = "bullet mashed",
-            shroud = "shroud",
+            itemShroud = "shroud",
         },
 
         diagnostic = {
@@ -506,6 +523,7 @@ table.insert(Config.scriptsConfig, {
             getBurnCream = ": Get Burn Cream",
             getDefib = ": Get Defibrillator",
             getFoldingSTretcher = ": Get Folding Stretcher",
+            getShroud = ": Get Shroud",
             closePurse = ": Close purse",
         },
 
